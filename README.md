@@ -52,4 +52,4 @@ and in the "rendered" folder you should find a subfolder with your chosen name a
 
 #### tokenisation process flow diagram
 
-![Image of flowDiagram](./rendered/testFlowDiagram/flowDiagram.svg?sanitize=true)
+![Image of flowDiagram](./generated/testFlowDiagram/flowDiagram.svg?sanitize=true)
