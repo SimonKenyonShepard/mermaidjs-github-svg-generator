@@ -46,13 +46,11 @@ function generateReadMe(filesToProcess) {
     Object.keys(filesToProcess).forEach((directory) => {
 
         let newDestinationDirectory = path.join(destinationFolder, directory);
-        let readmeContents = `# ${directory}
-    `;
+        let readmeContents = `# ${directory}`+'\n';
         filesToProcess[directory].forEach((file) => {
             let fileNameOnly = path.basename(file).replace(/\.[^/.]+$/, "");
-            readmeContents += `## ${fileNameOnly}
-![Image of ${fileNameOnly}](./${fileNameOnly}.svg?sanitize=true)
-`;
+            readmeContents += `## ${fileNameOnly}`+'\n';
+            readmeContents += `![Image of ${fileNameOnly}](./${fileNameOnly}.svg?sanitize=true)`+'\n';
         });
         readmeFiles.push({path : `${newDestinationDirectory}/README.md`, contents : readmeContents});
     });
