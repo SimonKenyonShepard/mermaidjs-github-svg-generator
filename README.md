@@ -50,8 +50,10 @@ and in the "rendered" folder you should find a subfolder with your chosen name a
 
 ## Example
 
-#### tokenisation process flow diagram
+#### Github render diagram
 
 ![Image of flowDiagram](./generated/githubSequenceDiagrams/diagramFlow.svg?sanitize=true)
+
+#### Generation process flow diagram
 
 ![Image of generation Flow](./generated/githubSequenceDiagrams/generationFlow.svg?sanitize=true)
