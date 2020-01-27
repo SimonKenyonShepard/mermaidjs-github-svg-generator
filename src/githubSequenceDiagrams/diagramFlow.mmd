@@ -1,0 +1,13 @@
+sequenceDiagram
+
+participant User
+participant Github
+participant Github README
+participant Github Source code
+
+User->>+Github: Browse directory
+Github->>Github README: Request Readme
+Github README->>Github Source code : Request Sequence diagram SVG
+Github Source code->>Github README : Return rendered SVG diagram
+Github README->>Github: Return Readme
+Github->>-User: Display README with sequence diagram SVG

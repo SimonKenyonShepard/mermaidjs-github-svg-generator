@@ -1,0 +1,13 @@
+sequenceDiagram
+
+Developer->>+NodeJS: generate sequence diagrams
+NodeJS->>Github Source code: Collect sequence diagram source
+Github Source code->>NodeJS: Return sequence diagrams source
+NodeJS->>Headless Chrome: Render sequence diagrams from source
+Headless Chrome->>NodeJS : Return rendered SVG sequence diagrams
+NodeJS->>Github Source code : Store rendered sequence diagrams SVG
+NodeJS->>Github Source code : Generate & store Readme's with embedded sequence diagram SVG
+Developer->>Github Source code : Inspect rendered Readmes & SVG
+Developer->>Github Source code : Commit & push Readmes & rendered SVG
+
+
