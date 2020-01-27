@@ -52,4 +52,6 @@ and in the "rendered" folder you should find a subfolder with your chosen name a
 
 #### tokenisation process flow diagram
 
-![Image of flowDiagram](./generated/testFlowDiagram/flowDiagram.svg?sanitize=true)
+![Image of flowDiagram](./generated/githubSequenceDiagrams/diagramFlow.svg?sanitize=true)
+
+![Image of generation Flow](./generated/githubSequenceDiagrams/generationFlow.svg?sanitize=true)
