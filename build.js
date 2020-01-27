@@ -52,7 +52,7 @@ function generateReadMe(filesToProcess) {
             let fileNameOnly = path.basename(file).replace(/\.[^/.]+$/, "");
             readmeContents += `## ${fileNameOnly}
 ![Image of ${fileNameOnly}](./${fileNameOnly}.svg?sanitize=true)
-    `;
+`;
         });
         readmeFiles.push({path : `${newDestinationDirectory}/README.md`, contents : readmeContents});
     });
