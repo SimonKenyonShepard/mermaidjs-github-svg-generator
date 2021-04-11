@@ -48,12 +48,6 @@ node run build
 
 and in the "rendered" folder you should find a subfolder with your chosen name and inside a README.md with your sequence diagram and the SVG sequence diagram itself.
 
-## Example
-
-#### Github render diagram
-
-![Image of flowDiagram](./generated/githubSequenceDiagrams/diagramFlow.svg?sanitize=true)
-
-#### Generation process flow diagram
-
-![Image of generation Flow](./generated/githubSequenceDiagrams/generationFlow.svg?sanitize=true)
+## Examples
+1. [githubSequenceDiagrams](generated/githubSequenceDiagrams/README.md)
+1. [testFlowDiagram](generated/testFlowDiagram/README.md)
