@@ -43,11 +43,12 @@ touch src/[your sequence diagram folder]/[yourSequenceDiagramCode].mmd
 ```
 Once this is done you can simply run :
 ```
-node run build
+npm run build
 ```
 
 and in the "rendered" folder you should find a subfolder with your chosen name and inside a README.md with your sequence diagram and the SVG sequence diagram itself.
 
 ## Examples
 1. [githubSequenceDiagrams](generated/githubSequenceDiagrams/README.md)
-1. [testFlowDiagram](generated/testFlowDiagram/README.md)
+2. [testFlowDiagram](generated/testFlowDiagram/README.md)
+
